@@ -131,6 +131,9 @@ while True:
     # Sell Product
     elif choice == 3:
         product = input("Enter product name: ").strip().title()
+        if product == "":
+            print("Product name cannot be empty.")
+            continue
         if product not in inventory:
             print(f"{product} does not exist.")
 

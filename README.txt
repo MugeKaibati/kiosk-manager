@@ -31,11 +31,11 @@ No external Python libraries are required.
 
 4. HOW TO RUN THE PROGRAM
 
-5. Make sure Python 3 is installed.
+1. Make sure Python 3 is installed.
 
-6. Open the project folder in VS Code or a terminal.
+2. Open the project folder in VS Code or a terminal.
 
-7. Run the program using:
+3. Run the program using:
 
 python kiosk_manager.py
 
@@ -65,7 +65,7 @@ The program provides six options:
 6. Exit
    Saves the current inventory before closing the program.
 
-7. DATA FILES
+6. DATA FILES
 
 The program uses two text files to store information.
 
@@ -93,7 +93,6 @@ Bread, 1, 65
 The program checks user input before processing it.
 
 For example:
-
 Menu choices must be numbers from 1 to 6.
 Product names cannot be empty.
 Prices must be valid positive numbers.
@@ -131,4 +130,4 @@ Contains information about the project and how to use it.
 
 10. PURPOSE OF THE PROJECT
 
-This project was created to practice Python programming concepts.
+This project was created to practice Python programming concepts including variables, dictionaries, lists, tuples, sets, loops, conditional statements, file handling, user input validation, and basic data management.
